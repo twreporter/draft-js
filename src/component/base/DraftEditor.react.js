@@ -354,7 +354,7 @@ class DraftEditor extends React.Component<DraftEditorProps, State> {
       textDirectionality,
     } = this.props;
 
-    const {contentsKey, blockKeyMap} = this.state;
+    const {blockKeyMap} = this.state;
 
     const rootClass = cx({
       'DraftEditor/root': true,
