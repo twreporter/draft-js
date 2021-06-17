@@ -1,7 +1,7 @@
 {
   "name": "@twreporter/draft-js",
   "description": "A React framework for building text editors.",
-  "version": "0.11.7",
+  "version": "0.11.8-rc.0",
   "keywords": [
     "draftjs",
     "editor",

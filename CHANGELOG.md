@@ -4,6 +4,21 @@ Notable changes to Draft.js will be documented in this file.
 
 Changes to `src` are live in production on facebook.com at the time of release.
 
+## 0.11.8-rc.0 (Jun 10th, 2021)
+
+### Added
+
+* [[`8922a1c1a5`](https://github.com/twreporter/draft-js/commit/8922a1c1a5)] - Implement restoreBlockDOM (ghostrick)
+
+### Changed
+* [[`a128f8ce54`](https://github.com/twreporter/draft-js/commit/a128f8ce54)] - **chore**: update package.json (Taylor Fang)
+* [[`1a33a13046`](https://github.com/twreporter/draft-js/commit/1a33a13046)] - **style**: eslint fixes (Taylor Fang)
+* [[`4dbb8ab7b3`](https://github.com/twreporter/draft-js/commit/4dbb8ab7b3)] - **fix**: fix yarn build (Taylor Fang)
+* [[`0d2c650a44`](https://github.com/twreporter/draft-js/commit/0d2c650a44)] - execute `yarn lint --fix` (ghostrick)
+* [[`11c81109d3`](https://github.com/twreporter/draft-js/commit/11c81109d3)] - execute formatter (ghostrick)
+* [[`b8f7e01ca1`](https://github.com/twreporter/draft-js/commit/b8f7e01ca1)] - Remove unnecessary characters (ghostrick)
+* [[`59e9883aa9`](https://github.com/twreporter/draft-js/commit/59e9883aa9)] - Fix test and format (ghostrick)
+
 ## 0.11.7 (Aug 13th, 2020)
 
 ### Added
