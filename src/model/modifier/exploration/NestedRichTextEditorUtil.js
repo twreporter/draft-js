@@ -171,8 +171,10 @@ const NestedRichTextEditorUtil: RichTextUtils = {
       return EditorState.push(
         editorState,
         withoutBlockStyle,
-        withoutBlockStyle.getBlockMap().get(currentBlock.getKey()).getType() ===
-          'unstyled'
+        withoutBlockStyle
+          .getBlockMap()
+          .get(currentBlock.getKey())
+          .getType() === 'unstyled'
           ? 'change-block-type'
           : 'adjust-depth',
       );
@@ -242,7 +244,6 @@ const NestedRichTextEditorUtil: RichTextUtils = {
   currentBlockContainsLink: (editorState: EditorState): boolean => {
     const selection = editorState.getSelection();
     const contentState = editorState.getCurrentContent();
-    const entityMap = contentState.getEntityMap();
     return contentState
       .getBlockForKey(selection.getAnchorKey())
       .getCharacterList()
