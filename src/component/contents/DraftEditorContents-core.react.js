@@ -192,7 +192,6 @@ class DraftEditorContents extends React.Component<Props> {
         preventScroll,
         selection,
         tree: editorState.getBlockTree(key),
-        key: `${key}-${blockKeyMap.get(key) || '0'}`,
       };
 
       const configForType =
@@ -230,8 +229,9 @@ class DraftEditorContents extends React.Component<Props> {
         'data-block': true,
         'data-editor': editorKey,
         'data-offset-key': offsetKey,
-        key,
+        key: `${key}-${blockKeyMap.get(key) || '0'}` ,
       };
+
       if (customEditable !== undefined) {
         childProps = {
           ...childProps,
