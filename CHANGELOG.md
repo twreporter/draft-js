@@ -4,6 +4,11 @@ Notable changes to Draft.js will be documented in this file.
 
 Changes to `src` are live in production on facebook.com at the time of release.
 
+## 0.11.8-rc.1 (Jun 26th, 2021)
+
+### Changed
+* [[`5dfe40d3d4`](https://github.com/twreporter/draft-js/commit/5dfe40d3d4)] - **fix**: add key prop to child component rather than the block (Tai-Jiun Fang)
+
 ## 0.11.8-rc.0 (Jun 10th, 2021)
 
 ### Added
